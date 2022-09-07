@@ -1,0 +1,36 @@
+body {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  img{
+    width: 200px;
+  }
+
+  p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  button {
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+  }
+  
+  #move {
+    left: 250px;
+  }
+  
+  #change:hover {
+    cursor:pointer;
+  }
